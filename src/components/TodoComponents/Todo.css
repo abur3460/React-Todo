@@ -45,8 +45,10 @@
     font-family: 'Staatliches', cursive;
 }
 
-.todo-list .the-list { 
-    list-style-type: circle;
+.list-style {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
 }
 
 .the-list li:hover,
@@ -54,6 +56,11 @@
     background-color: rgba(255, 255, 255, 0.5);
     cursor: pointer;
 }
+
+.todo-list .the-list i {
+    display: none;
+}
+
 
 ul {    
     list-style-type: circle;
